@@ -28,7 +28,21 @@ export default {
                         { name: 'Building-1',
                         children: [
                         { name: 'Floor-1' },
-                        { name: 'Floor-2' }
+                        { name: 'Floor-2' ,
+                    
+                    children: [
+                        { name: 'Assets@998657',
+                        batchId:"123DSP",
+                        children: [
+                        { name: 'Temprature-1' },
+                        { name: 'Pressure-2' },
+                        { name: 'Pressure-2' }
+                    ]
+                      
+                      },
+                        { name: 'Building-2' }
+                    ]
+                    }
                     ]
                       
                       },

@@ -72,7 +72,7 @@ class TreeViewClass extends PureComponent {
         return (
             <Fragment>
   <Row>
-    <Col xs lg="2">
+    <Col xs lg="3">
         <InputGroup className="mb-3">
     <FormControl
       placeholder="Search in tree..."
